@@ -1,0 +1,41 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+body{
+    font-family: courier new, courier;
+    font-size: 12px;
+}
+
+#draggable_container{
+    width: 100%;
+    max-width: 900px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.draggable{
+    border: 1px solid #ccc; 
+    display: inline-block; 
+    cursor: move;
+    position: absolute;         
+}
+
+.guide{
+    display: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+}
+
+#guide-h{
+    border-top: 1px dashed #55f; 
+    width: 100%; 
+}
+
+#guide-v{
+    border-left: 1px dashed #55f; 
+    height: 100%; 
+}
